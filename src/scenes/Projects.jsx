@@ -85,19 +85,19 @@ const Projects = () => {
             link="https://github.com/roumaysae/Projet-WEB.git" 
           />
           <Project 
-            title="Food Recommendation System" 
+            title="Food-Recommendation-System" 
             description="A system that recommends food recipes based on user preferences and nutritional needs."
             link="https://github.com/roumaysae/Recommendation-systemOfFood.git" 
           />
 
           {/* ROW 2 */}
           <Project 
-            title="E-banking Application Web" 
+            title="E-banking-Application-Web" 
             description="A secure and user-friendly web application for managing e-banking transactions."
             link="https://github.com/roumaysae/E-banking-APP.git" 
           />
           <Project 
-            title="Patient Management App"
+            title="Patient-Management-App"
             description="An application to manage patient records and appointments using Spring framework."
             link="https://github.com/roumaysae/PatientApp-Spring.git" 
           />
