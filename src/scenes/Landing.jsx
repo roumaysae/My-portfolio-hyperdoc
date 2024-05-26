@@ -75,7 +75,7 @@
                   <a href="assets/Roumaysae_ELAMRANI_Resume.pdf" download="Roumaysae_ELAMRANI_Resume.pdf">
                     <button className='m-2 p-2 bg-[#e551cc] text-white rounded-lg'>Download Resume</button>
                   </a>
-                  <a href="assets/Cover_letter_Roumaysae_EL_AMRANI.pdf" download="Cover_letter_Roumaysae_EL_AMRANI.pdf">
+                  <a href="assets/Cover letter Roumaysae EL AMRANI.pdf" download="Cover letter Roumaysae EL AMRANI.pdf">
                     <button className='m-2 p-2 bg-[#e551cc] text-white rounded-lg'>Download Cover Letter</button>
                   </a>
                 </div>

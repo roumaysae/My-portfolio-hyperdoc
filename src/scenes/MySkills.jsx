@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
+  const isMobile = useMediaQuery("(max-width: 640px)");
   const skills = [
     "Angular",
     "React",
@@ -68,7 +69,7 @@ const MySkills = () => {
       <div className="md:flex md:justify-between mt-16 gap-32">
         {/* HARD SKILLS */}
         <motion.div
-          className="md:w-1/3 mt-10"
+          className={`md:w-1/2 ${isMobile ? 'md:w-full' : 'md:order-1'}`} // For mobile, make full width or swap order
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -94,7 +95,7 @@ const MySkills = () => {
 
         {/* SOFT SKILLS */}
         <motion.div
-          className="md:w-1/3 mt-10"
+          className={`md:w-1/2 ${isMobile ? 'md:w-full' : 'md:order-2'}`} // For mobile, make full width or swap order
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
