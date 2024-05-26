@@ -18,7 +18,7 @@ const projectVariant = {
 const Project = ({ title, description, link }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-8 text-deep-blue`;
-  const projectTitle = title.split(" ").join("-");
+  const projectTitle = title;
 
   return (
     <motion.div variants={projectVariant} className="relative max-w-[400px] max-h-[400px]">
@@ -80,7 +80,7 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <Project 
-            title="BLOG API" 
+            title="BLOG-API.jpeg" 
             description="A RESTful API for a blog platform built with Node.js and Express."
             link="https://github.com/roumaysae/Projet-WEB.git" 
           />
