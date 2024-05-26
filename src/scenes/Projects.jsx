@@ -80,7 +80,7 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <Project 
-            title="BLOG-API.jpeg" 
+            title="BLOG-API" 
             description="A RESTful API for a blog platform built with Node.js and Express."
             link="https://github.com/roumaysae/Projet-WEB.git" 
           />
